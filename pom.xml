@@ -1,10 +1,30 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.tfnico.examples.building</groupId>
 	<artifactId>methone</artifactId>
 	<version>1.1-SNAPSHOT</version>
 	<name>Methone</name>
 	<description>Library of many things</description>
+	<build>
+		<!-- Filter project version into version.properties-->
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/version.properties</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+				<excludes>
+					<exclude>**/version.properties</exclude>
+				</excludes>
+			</resource>
+		</resources>
+	</build>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>

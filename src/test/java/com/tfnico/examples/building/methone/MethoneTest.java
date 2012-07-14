@@ -10,6 +10,7 @@ public class MethoneTest {
 	public void test() {
 		Methone methone = new Methone();
 		assertEquals("methone",methone.toString());
+		assertNotNull(methone.getVersion());
 	}
 
 }
