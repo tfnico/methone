@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.tfnico.examples.building</groupId>
 	<artifactId>methone</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>Methone</name>
 	<description>Library of many things</description>
 	<dependencies>
