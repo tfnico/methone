@@ -26,8 +26,8 @@
 		</repository>
 	</distributionManagement>
 	<scm>
-		<connection>git:git://github.com/tfnico/methone.git</connection>
-		<developerConnection>git:git@github.com:tfnico/methone.git</developerConnection>
+		<connection>scm:git:git://github.com/tfnico/methone.git</connection>
+		<developerConnection>scm:git:git@github.com:tfnico/methone.git</developerConnection>
 		<url>https://github.com/tfnico/methone</url>
 	</scm>
 </project>
