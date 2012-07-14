@@ -15,13 +15,13 @@
 	</dependencies>
 	<repositories>
 		<repository>
-			<id>local</id>
+			<id>enterprise-repo</id>
 			<url>file:///tmp/enterprise-repo</url>
 		</repository>
 	</repositories>
 	<distributionManagement>
 		<repository>
-			<id>local</id>
+			<id>enterprise-repo</id>
 			<url>file:///tmp/enterprise-repo</url>
 		</repository>
 	</distributionManagement>
